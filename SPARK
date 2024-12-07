@@ -1,0 +1,12 @@
+𝐒𝐩𝐚𝐫𝐤:
+
+1. Steps on how you tune your long running spark-jobs ?
+2. What is the purpose of broadcast variables in Spark and when would you use them?
+3. What is data skewness and How do you handle data skew in Spark jobs?
+4. How do you achieve schema evolution in spark ? 
+5. What is Spark’s lazy evaluation, and how does it optimize execution?
+6. How do you handle large text files with no tabular structure in Spark?
+7. What is Z-ordering in Databricks, and when would you use it?
+8. What is the difference b/w parquet and delta files ?
+
+
