@@ -1,0 +1,22 @@
+SQL Questions
+
+ 1. Identify the top 5 products that have shown the highest increase in weekly sales over the last quarter.
+ 2. Calculate the percentage of out-of-stock items for each store and identify the stores that exceed 20% out-of-stock items on average.
+ 3. Find products that were consistently sold in every store across a region but saw no sales in at least one store last month.
+ 4. Design a query to track customer retention by calculating how many customers made purchases every month for the last 6 months.
+ 5. Explain how indexing works in SQL and how you would use it to optimize a query that involves multiple joins on a large dataset of store transactions.
+ 6. Discuss how you would manage and query a database containing billions of rows of sales data across multiple time zones.
+ 7. In the case of seasonal promotions, how would you design an SQL query to measure the effectiveness of discounts on specific product categories?
+ 8. Explain the difference between OLTP and OLAP databases, and provide examples of how Target might use each for its operations.
+
+
+𝐒𝐐𝐋:
+
+1. How would you optimize a complex SQL query with multiple joins and subqueries? 
+2. How do you handle NULL values in SQL while performing aggregations?
+3. SQL query to find department wise top 3 salaries ?
+4. Question on windows function : running sum/year-on-year growth/top 'n' people by salary ?
+5. What is the purpose of the `GROUP BY` and `HAVING` clauses?
+6. What is the difference b/w rank, dense rank and row number ?
+7. Explain how indexes work and when to use them ?
+8. Explain the difference between INNER, LEFT, ANTI and SEMI -JOINS with examples.
