@@ -1,0 +1,10 @@
+𝐀𝐳𝐮𝐫𝐞 𝐂𝐥𝐨𝐮𝐝:
+
+1. How do you implement incremental data loading in Azure Data Factory?
+2. Explain the difference between copy activity and data flow in ADF.
+3. How do you handle error logging and notifications in ADF pipelines?
+4. What are the best practices for parameterizing ADF pipelines?
+5. How do you implement dynamic pipeline execution in ADF based on metadata?
+6. What is the use of CI/CD pipelines in Azure for deploying data pipelines? 
+7. How do you secure data stored in Azure using encryption and role-based access control (RBAC)?
+8. How do you migrate data from an on-prem database to Azure SQL Database?
