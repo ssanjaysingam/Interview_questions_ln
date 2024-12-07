@@ -1,0 +1,19 @@
+Python Questions
+
+ 1. Write a function to calculate the total sales of a product, given a list of daily sales data.
+ 2. Develop a script that reads a dictionary containing product IDs and their stock counts, and flags products that have stock below a certain threshold.
+ 3. Write a Python function to generate a weekly sales report from a CSV file containing transaction data (columns: date, product_id, sales_amount). The output should be the total sales for each product for the week.
+ 4. Explain how Python’s pandas library can be used to handle missing data in large sales datasets. Provide an example of filling in missing values for daily sales based on the average sales of the corresponding day of the week.
+ 5. Write a function that takes two lists: one with store IDs and another with their corresponding revenue. Return a dictionary where the keys are store IDs, and the values are the revenues.
+ 6. What are the key differences between a list and a dictionary in Python? How would you use them for different tasks in analyzing retail data?
+
+
+𝐏𝐲𝐭𝐡𝐨𝐧:
+
+1. What are decorators in Python and how can they be used in data engineering tasks?
+2. How do write data quality checks and explain the use-case ?
+3. Given an array of integers, return the indices of two numbers such that they add up to a specific target ?
+4. Write a function to rotate an array of n elements to the right by k steps ?
+5. How do you handle exceptions in Python using `try`, `except` ?
+6. Write a function to count the frequency each character in the string ?
+
