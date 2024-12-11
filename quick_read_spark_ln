@@ -1,0 +1,26 @@
+Common Spark Issues and How to Fix Them! 💡 (Part 1)
+
+✅ Out of Memory Exceptions
+Issue: This occurs when Spark tasks try to process more data than the available memory and leading to crashes.
+
+🔸 Resolution: Optimize memory usage by increasing the executor memory (--executor-memory), using data compression formats like Parquet, partitioning large datasets. Caching only relevant data and using columnar storage formats
+
+✅ Missing Data
+Issue: Sometimes, Spark jobs output is incomplete data due to improper handling of null values or faulty logic in transformations.
+
+🔸Resolution: we can handle null with na.fill() or na.drop(), double-check join conditions and types. Adding data validation checks before and after jobs can also help us catch such issues early.
+
+✅ Data Skewness
+Issue: Uneven distribution of data can result in some tasks taking significantly longer to process
+
+🔸Resolution: Use techniques like salting keys in joins, increasing the number of partitions (repartition() or coalesce()), or using broadcast joins for smaller datasets. 
+
+✅ Spark Job Repeatedly Fails
+Issue: Jobs failing frequently due to various reasons like resource starvation, incorrect configurations, or corrupted data.
+
+🔸Resolution: we can Increase retry attempts with spark task maxFailures, and we can verify resource allocations (--num-executors, --executor-memory), and inspect error logs to detect causes.
+
+✅ FileAlreadyExistsException in Spark Jobs
+Issue: This happens when Spark tries to write output files to a location where files already exist, leading to job failures.
+
+🔸Resolution: we can clean the output directory by using saveMode("overwrite") to overwrite existing files or explicitly deleting the directory before writing.
